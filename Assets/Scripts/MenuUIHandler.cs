@@ -11,6 +11,9 @@ using UnityEditor;
 public class MenuUIHandler : MonoBehaviour
 {
     
+    //Debug.Log(Application.persistentDataPath);
+    //C:\Users\***\AppData\LocalLow\DefaultCompany\SimpleBreakout
+   
     public void StartGame()
     {
         SceneManager.LoadScene(1);
